@@ -56,7 +56,7 @@ const WelcomePage = () => {
           display: "flex",
         }}
       >
-        {indexes.length > 0 && (
+        {indexes?.length > 0 && (
           <div
             style={{
               maxWidth: "30%",
